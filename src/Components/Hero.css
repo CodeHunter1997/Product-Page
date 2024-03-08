@@ -1,0 +1,163 @@
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.hero {
+    width: 1125px;
+    height: 613px;
+    margin-top: 50px;
+    left: 190px;
+    display: flex;
+    /* margin-left: 10%; */
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    /* background-color: #D01C28; */
+}
+
+.component1 {
+    width: 595px;
+    height: 306px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section1 {
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 102px;
+}
+
+.section2 {
+    width: 404px;
+    height: 91px;
+    display: flex;
+    position: relative;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.section2 h6 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #5A5959;
+}
+
+.section3 {
+    height: 41px;
+    width: 331px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.btn1 {
+    background-color: #D01C28;
+    /* Padding: 6px 6px; */
+    width: 150px;
+    height: 41px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    border: none;
+}
+
+.btn2 {
+    border: 1px solid #000000;
+    /* Padding: 6px, 6px; */
+    width: 141px;
+    height: 41px;
+    color: #5A5959;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+
+.section4 {
+    width: 140px;
+    height: 67px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 10px 0;
+}
+
+.section4 h6 {
+    color: #5A5959;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.brandLogo {
+    gap: 16px;
+    display: flex;
+}
+
+.brandLogo img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.component2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+   
+}
+.component2 img{
+    width: 530px;
+    height: 487.06px;
+    /* background-color: yellow; */
+    cursor: pointer;
+    position: relative;
+}
+
+
+/*.....................media queries.................*/
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        max-width: 100%; /* Adjust width for smaller screens */
+    }
+
+    .section2 {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .section3 {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .btn1,
+    .btn2 {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .brandLogo {
+        flex-direction: column; /* Stack logos vertically on smaller screens */
+    }
+}
+
+/* Add more media queries as needed */
